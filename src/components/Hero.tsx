@@ -20,13 +20,12 @@ export function Hero({ docked }: { docked: boolean }) {
         )}
       </div>
 
-      <div
-        className="animate-hero-rise mt-8 inline-flex items-center gap-2 text-xs font-semibold tracking-widest text-ember uppercase sm:mt-10 sm:text-sm"
+      <p
+        className="animate-hero-rise mt-8 text-xs font-semibold tracking-widest text-ember uppercase sm:mt-10 sm:text-sm"
         style={{ animationDelay: '100ms' }}
       >
-        <span className="size-1.5 rounded-full bg-ember" />
-        <span>Belong · Become · Build</span>
-      </div>
+        Belong. Become. Build.
+      </p>
 
       <h1
         className="animate-hero-rise mt-5 text-[clamp(3.25rem,10.5vw,9rem)] leading-[0.88] font-extrabold tracking-[-0.045em] text-(--fg)"

@@ -15,10 +15,9 @@ export function Gatherings() {
     <section id="fridays" className="border-t border-(--line) px-5 py-28">
       <div className="mx-auto grid max-w-6xl gap-12 md:grid-cols-2">
         <div>
-          <div className="inline-flex items-center gap-2 text-xs font-semibold tracking-widest text-ember uppercase">
-            <span className="size-1.5 rounded-full bg-ember" />
-            <span>Belong · Become · Build</span>
-          </div>
+          <p className="text-xs font-semibold tracking-widest text-ember uppercase">
+            Belong. Become. Build.
+          </p>
           <h2 className="mt-4 text-[clamp(2.75rem,7vw,6rem)] leading-[0.92] font-extrabold tracking-[-0.045em]">
             Friday <span className="font-serif font-normal text-ember italic">nights.</span>
           </h2>
