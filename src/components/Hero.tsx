@@ -12,7 +12,7 @@ export function Hero({ docked }: { docked: boolean }) {
         className="absolute inset-x-0 bottom-0 -z-10 h-[62svh] w-full object-cover object-bottom opacity-40 mix-blend-luminosity [mask-image:linear-gradient(to_bottom,transparent,black_25%,black_85%,transparent)] dark:opacity-35"
       />
 
-      <div className="h-20 w-36 sm:h-24 sm:w-44">
+      <div className="w-36 aspect-[264/224] sm:w-44">
         {!docked && (
           <motion.div layoutId="hm-mark" transition={dock} className="text-(--fg)">
             <HMMark className="w-full" />
@@ -21,7 +21,7 @@ export function Hero({ docked }: { docked: boolean }) {
       </div>
 
       <div
-        className="animate-hero-rise mt-6 inline-flex items-center gap-2 text-xs font-semibold tracking-widest text-ember uppercase sm:text-sm"
+        className="animate-hero-rise mt-8 inline-flex items-center gap-2 text-xs font-semibold tracking-widest text-ember uppercase sm:mt-10 sm:text-sm"
         style={{ animationDelay: '100ms' }}
       >
         <span className="size-1.5 rounded-full bg-ember" />
